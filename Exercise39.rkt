@@ -36,8 +36,7 @@
 
 
 ; A WorldState is a Number.
-; interpretation the number of pixels between
-; the left border of the scene and the car
+; x-coordinate of the right-most edge of the car
 
 ; WorldState -> Image
 ; places the car into the BACKGROUND scene,
