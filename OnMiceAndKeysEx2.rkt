@@ -27,6 +27,7 @@
 (define (remember ak ke)
     (cond
         [(> (string-length ke) 1) (string-append ak "")]
+        [(= (string->int ke) 127) (string-append ak "")]
         [(> (string->int ke) 31) (string-append ak ke)]
         [else (string-append ak "")]))
  
